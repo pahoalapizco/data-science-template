@@ -1,0 +1,7 @@
+name: cursos-ds
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:  
+  - cookiecutter

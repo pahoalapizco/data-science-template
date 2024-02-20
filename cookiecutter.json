@@ -1,0 +1,9 @@
+{
+  "title": "Data Science Project",
+  "name": "{{ cookiecutter.title.lower().replace(' ', '_').replace('-', '_') }}",
+  "author": "",
+  "version": "1.0",
+  "description": "",
+  "packages": ["All", "Minimal"],
+  "python_version": "3.7"
+}
