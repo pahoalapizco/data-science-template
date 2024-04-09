@@ -1,6 +1,7 @@
 {
   "title": "Data Science Project",
   "name": "{{ cookiecutter.title.lower().replace(' ', '_').replace('-', '_') }}",
+  "module_name": "{{ cookiecutter.title.lower().replace(' ', '_').replace('-', '_') }}_modules",
   "author": "",
   "version": "1.0",
   "description": "",
