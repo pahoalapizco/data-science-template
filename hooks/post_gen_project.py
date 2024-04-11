@@ -11,7 +11,7 @@ def create_repo(title):
 
   subprocess.call(['git', 'init'])
   subprocess.call(['git', 'add', '*'])
-  subprocess.call(['git', 'commit', '-m', 'Initial commit for {title} project'])
+  subprocess.call(['git', 'commit', '-m', f'Initial commit for {title} project'])
 
   print(f"{SUCCESS_COLOR} Git repository has been created successfully {RESET_ALL}")
                                            
