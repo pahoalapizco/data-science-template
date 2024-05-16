@@ -19,7 +19,7 @@ dependencies:
   {% endif -%}
   - pip
   {% if cookiecutter.packages == "All" -%}
-  - sklearn
+  - scikit-learn
   - pyprojroot
   {% endif -%}
   - python={{ cookiecutter.python_version }}
