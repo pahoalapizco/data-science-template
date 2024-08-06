@@ -5,17 +5,17 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - seaborn
+  - pandas
+  - numpy
+  - matplotlib
   {% if cookiecutter.packages == "All" -%}
   - fs
   - jupyter
   - jupyterlab
   - pathlib
-  - seaborn
   - statsmodels
   - scipy
-  - pandas
-  - numpy
-  - matplotlib
   {% endif -%}
   - pip
   {% if cookiecutter.packages == "All" -%}
@@ -23,7 +23,7 @@ dependencies:
   - pyprojroot
   {% endif -%}
   - python={{ cookiecutter.python_version }}
+  {% if cookiecutter.packages == "All" -%}
   - pip:
-    {% if cookiecutter.packages == "All" -%}
     - pyhere
-    {% endif -%}
+  {% endif -%}
