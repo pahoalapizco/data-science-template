@@ -1,4 +1,4 @@
-name: cursos-ds
+name: cookiecutter-env
 channels:
   - anaconda
   - conda-forge

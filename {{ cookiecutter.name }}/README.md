@@ -12,7 +12,7 @@
 
 ## Create environment
 ```bash
-conda env create -f environment environment.yml
+conda env create -f environment.yml
 activate {{ cookiecutter.name }}
 ```
 

@@ -8,9 +8,14 @@ Project structure for doing and sharing data science work or personal projects.
 ```bash
 pip install cookiecutter
 ```
-or
+Or
 ```bash
 conda install -c conda-forge cookiecutter
+```
+Or you can create a new virtual environment
+```bash
+conda env create -f environment.yml
+activate cookiecutter-env
 ```
 
 ## Create a new project
