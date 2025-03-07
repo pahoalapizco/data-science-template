@@ -30,11 +30,14 @@ To use the module inside your notebooks, add `%autoreload` at the top of your no
 %autoreload 2
 ```
 
-Example of module usage :
+Example of module usage:
 
 ```python
-from {{ cookiecutter.module_name }}.utils.paths import data_dir
-data_dir()
+import sys
+sys.path.append("..")
+
+import {{ cookiecutter.module_name }}.utils.paths as path
+path.data_dir()
 ```
 
 ## Project organization
