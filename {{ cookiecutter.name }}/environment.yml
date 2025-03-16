@@ -9,6 +9,9 @@ dependencies:
   - pandas
   - numpy
   - matplotlib
+  - pip
+  - pyprojroot
+  - kagglehub
   {% if cookiecutter.packages == "All" -%}
   - fs
   - jupyter
@@ -16,14 +19,8 @@ dependencies:
   - pathlib
   - statsmodels
   - scipy
-  {% endif -%}
-  - pip
-  {% if cookiecutter.packages == "All" -%}
   - scikit-learn
-  - pyprojroot
   {% endif -%}
   - python={{ cookiecutter.python_version }}
-  {% if cookiecutter.packages == "All" -%}
   - pip:
     - pyhere
-  {% endif -%}

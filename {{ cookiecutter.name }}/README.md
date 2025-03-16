@@ -31,13 +31,20 @@ To use the module inside your notebooks, add `%autoreload` at the top of your no
 ```
 
 Example of module usage:
-
+1. Paths usage:
 ```python
 import sys
 sys.path.append("..")
 
 import {{ cookiecutter.module_name }}.utils.paths as path
 path.data_dir()
+```
+
+2. Download data usage:
+```python
+import {{ cookiecutter.module_name }}.utils.download_data
+download_data.from_kaggle(("uciml/iris", "Iris.csv"))
+
 ```
 
 ## Project organization
