@@ -6,5 +6,5 @@
   "version": "1.0",
   "description": "",
   "packages": ["All", "Minimal"],
-  "python_version": "3.7"
+  "python_version": "3.12"
 }
